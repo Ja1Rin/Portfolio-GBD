@@ -38,7 +38,16 @@ El tema 7 es mas corto que el 6 pero es igual de importante ya que entran en jue
 pero solo si la clave primaria de una tabla y la clave foranea de la otra tabla se llaman igual, en cambio el `join on` tambien se puede usar para la
 misma funcion que las anteriores, pero ademas para cuando la clave primaria de una tabla y la clave foranea de la otra tabla no se llamen igual.
 
-Lo siuie
+Lo ultimo que vimos son las clausulas `group by`(sirve para agrupar por cada columna) `having` (similar al where pero para hacer condiciones con
+totales) y  por supuesto las clausulas totales como `sum` `avg` `count`, etc
 
 
+## Reflexiones personales
 
+Personalmente yo ya conocia el tema de las consultas de SQL y me parece algo fascinante pero a la vez complicado de aprender,
+no obstante, yo creo que lo positivo que saco de todo esto es que este año he podido aprender a realizar consultas y sobre todo 
+entender como funciona el enunciado y poder sacar la consulta, esto del final es la parte que mas hay que practicar ya que si 
+no entendemos el enunciado y tampoco sabemos de que va relacionado el propio tema vamos muy mal.
+En cuanto a lo negativo me quedo con las veces que he intentado la consulta y finalmente no lo he conseguido, aunque no me salga
+por lo menos lo he intentado hacer y puesto ganas.
+En resumen, este tema me ha aportado mucho a la hora de pensar y razonar y que con otras asignaturas o cosas no lo han hecho.
