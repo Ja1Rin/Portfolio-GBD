@@ -25,23 +25,23 @@ ordenar con la cláusula *`order by nomColumna (desc|asc)`*.
 
 Las **funciones** es otra cosa que hemos visto y que son importantes, **con ellas podemos redondear números, extraer letras de los datos
 de una columna, sacar las fechas y darlas formato, etc.** Oracle nos permite convertir textos en números y viceversa, y textos a fechas
-y viceversa, para ello se utilizan `to_char(),to_number() y to_date()`. En la conversión de fechas a textos existen una serie de símbolos
+y viceversa, para ello se utilizan **_`to_char(),to_number() y to_date()`_**. En la conversión de fechas a textos existen una serie de símbolos
 que se utilizan para convertir esa fecha al formato que queramos, lo mismo ocurre con al convertir números en texto. Pero sobre todo lo
 mas caracteristico de este tema 6 son las expresiones regulares. Algunas de estas están basadas en otras funciones que solemos utilizar. Las 
 expresiones regulares sirven practicamente para realizar consultas de una manera mas sencilla que con funciones normales, es decir, con la funcion
-`substr` se nos puede complicar hacer esa consulta y por ello se utiliza `regexp_substr`. Antes de terminar tambien se nos permite realizar
-condiciones en Oracle y para ello se utilizan `case` y `decode`,la primera se escoge para hacer condiciones mas complejas que con la segunda
+**_`substr`_** se nos puede complicar hacer esa consulta y por ello se utiliza **_`regexp_substr`_**. Antes de terminar tambien se nos permite realizar
+condiciones en Oracle y para ello se utilizan **_`case` y `decode`_**,la primera se escoge para hacer condiciones mas complejas que con la segunda
 se nos hacen "cuesta arriba".
 
 El tema 7 es mas corto que el 6 pero es igual de importante ya que entran en juego las consultas a varias tablas, para ello se utiliza
 `join` sin embargo, esta clausula dispone de 3 variantes **_`join using`,`join on`,`natural join`_**. La primera y la tercera sirven para cruzar tablas
 pero solo si la clave primaria de una tabla y la clave foranea de la otra tabla se llaman igual, en cambio el `join on` tambien se puede usar para la
 misma funcion que las anteriores, pero ademas para cuando la clave primaria de una tabla y la clave foranea de la otra tabla no se llamen igual. 
-Luego estaba el **_cross join_** que servía para mostrar todas las combinaciones de todas las filas de la primera
+Luego estaba el **_`cross join`_** que servía para mostrar todas las combinaciones de todas las filas de la primera
 tabla con todas las filas de la segunda tabla. Se usan para consultas algo compejas
 
-Lo ultimo que vimos son las cláusulas `group by`(sirve para agrupar por cada columna) `having` (similar al where pero para hacer condiciones con
-totales) y  por supuesto las cláusulas totales como `sum` `avg` `count`, etc
+Lo ultimo que vimos son las cláusulas **_`group by`_**(sirve para agrupar por cada columna) **_`having`_** (similar al where pero para hacer condiciones con
+totales) y  por supuesto las *cláusulas totales* como **_`sum` `avg` `count`_**, etc
 
 
 ## Reflexiones personales
