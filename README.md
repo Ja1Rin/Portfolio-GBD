@@ -2,9 +2,9 @@
 
 ### Indice
 * [Resumen](#resumen)  
-* [Reflexiones personales](#reflexiones)  
-* [Ejercicios Significativos](#ejersign)  
-* [Ejercicios de invencion propia](#ejerpropios)  
+* [Reflexiones personales](#reflexiones-personales)  
+* [Ejercicios Significativos](#ejer-significativos)  
+* [Ejercicios de invencion propia](#ejer-propios)  
 * [Conclusión](#conclusiones) 
 
 
@@ -52,4 +52,14 @@ En cuanto a lo negativo me quedo con las veces que he intentado la consulta y fi
 por lo menos lo he intentado hacer y he puesto ganas.
 En resumen, este tema me ha aportado mucho a la hora de pensar y razonar y que con otras asignaturas o cosas no lo han hecho.
 
+## Conclusiones
 
+Al principio algunas de las dificultades que tenía era que no entendía lo que se pedía en el enunciado, es decir, me costaba en 
+varias de las practicas, otra de ellas era que no sabia como funcionaban la mayoria de las funciones ya que practicamente casi todas
+las desconocía por completo y hasta que me familiarizé con todas me costó algo de tiempo. No obstante, de las estas dos, **la dificultad
+más *difícil* fue la de los enunciados ya que si no sabemos comprender los enunciados no salen los ejercicios**.
+
+**De esta unidad me llevo muchas cosas buenas** como por ejemplo el **aprender** que son y como hacer las diversas consultas, **las risas** con los 
+compañeros al intentar hacerlas y que ademas salgan bien... son tantas cosas que me las llevo para siempre. **Por otro lado**, **cuando no paraba 
+de hacer una consulta** que llevaba 30 minutos **y** ademas **no la conseguía resolver, eso me ponía bastante enfadado**, de todo lo que hecho puede 
+sin ninguna duda que es lo que menos ha gustado.
