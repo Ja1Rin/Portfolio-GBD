@@ -34,9 +34,11 @@ condiciones en Oracle y para ello se utilizan `case` y `decode`,la primera se es
 se nos hacen "cuesta arriba".
 
 El tema 7 es mas corto que el 6 pero es igual de importante ya que entran en juego las consultas a varias tablas, para ello se utiliza
-`join` sin embargo, esta clausula dispone de 3 variantes `join using`,`join on`,`natural join`. La primera y la tercera sirven para cruzar tablas
+`join` sin embargo, esta clausula dispone de 3 variantes **_`join using`,`join on`,`natural join`_**. La primera y la tercera sirven para cruzar tablas
 pero solo si la clave primaria de una tabla y la clave foranea de la otra tabla se llaman igual, en cambio el `join on` tambien se puede usar para la
-misma funcion que las anteriores, pero ademas para cuando la clave primaria de una tabla y la clave foranea de la otra tabla no se llamen igual.
+misma funcion que las anteriores, pero ademas para cuando la clave primaria de una tabla y la clave foranea de la otra tabla no se llamen igual. 
+Luego estaba el **_cross join_** que servía para mostrar todas las combinaciones de todas las filas de la primera
+tabla con todas las filas de la segunda tabla. Se usan para consultas algo compejas
 
 Lo ultimo que vimos son las cláusulas `group by`(sirve para agrupar por cada columna) `having` (similar al where pero para hacer condiciones con
 totales) y  por supuesto las cláusulas totales como `sum` `avg` `count`, etc
