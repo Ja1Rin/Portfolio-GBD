@@ -8,7 +8,7 @@
 * [Conclusión](#conclusiones) 
 
 
-## **_RESUMEN**_
+## **_RESUMEN_**
 En los temas 6 y 7 estuvimos viendo lo que es considerado como la parte mas importante junto con la creacion de tablas,
 esa parte son las **consultas**.
 Las consultas es una **tecnica que nos permite visualizar el contenido de una o varias tablas con solo unas lineas**, incluso 
