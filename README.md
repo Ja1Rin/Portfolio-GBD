@@ -8,7 +8,7 @@
 * [Conclusión](#conclusiones) 
 
 
-## Resumen
+## **_RESUMEN**_
 En los temas 6 y 7 estuvimos viendo lo que es considerado como la parte mas importante junto con la creacion de tablas,
 esa parte son las **consultas**.
 Las consultas es una **tecnica que nos permite visualizar el contenido de una o varias tablas con solo unas lineas**, incluso 
@@ -44,7 +44,7 @@ Lo ultimo que vimos son las cláusulas **_`group by`_**(sirve para agrupar por c
 totales) y  por supuesto las *cláusulas totales* como **_`sum` `avg` `count`_**, etc
 
 
-## Reflexiones personales
+## **_REFLEXIONES PERSONALES_**
 
 Personalmente yo ya conocía el tema de las consultas de SQL y me parece algo fascinante pero a la vez complicado de aprender,
 no obstante, yo creo que lo positivo que saco de todo esto es que este año he podido aprender a realizar consultas y sobre todo 
@@ -54,7 +54,7 @@ En cuanto a lo negativo me quedo con las veces que he intentado la consulta y fi
 por lo menos lo he intentado hacer y he puesto ganas.
 En resumen, este tema me ha aportado mucho a la hora de pensar y razonar y que con otras asignaturas o cosas no lo han hecho.
 
-## Conclusiones
+## **_CONCLUSIONES_**
 
 Al principio algunas de las dificultades que tenía era que no entendía lo que se pedía en el enunciado, es decir, me costaba en 
 varias de las practicas, otra de ellas era que no sabia como funcionaban la mayoria de las funciones ya que practicamente casi todas
