@@ -55,14 +55,46 @@ por lo menos lo he intentado hacer y he puesto ganas.
 En resumen, este tema me ha aportado mucho a la hora de pensar y razonar y que con otras asignaturas o cosas no lo han hecho.
 
 
-## **_Ejercicios Significativos_**
+## **_EJERCICIOS SIGNIFICATIVOS_**
 
-### Primer ejercicio
-![](fotos/Ejercicio1.png)
+### Primer ejercicio(Práctica20-Ejercicio8)
+![](fotos/Ejercicio1.png) 
+
+Este ejercicio me llamó bastante la atención ya que no sabía que al juntar dos funciones totales como son `count` y `max` pues no se podía efectuar 
+una agrupación de 2 columnas. Es bastante sencillo de hacer pero hay que pensar cuales son las funciones a utilizar.
+
+### Segundo ejercicio(Práctica20-Ejercicio6)
+![](fotos/Ejercicio2.png)
+
+A primera vista parece que es sencillo , y lo es pero tiene una pequeña cosa que puede complicarnos, la cuál es que el modo de agrupación se hace en 
+función del `to_char(j.fecha_nac,'DAY')`. Yo en un principio lo había agrupado por la fecha de nacimiento normal de un jugador, sin embargo cuando me 
+dijeron que había que agruparlo de la otra manera para que la consulta se agrupe por el nombre de la fecha se me encendióm la bombilla, y finalmente 
+lo saqué.
+
+### Tercer Ejercicio(Práctica17-Ejercicio15)
+![](fotos/Ejercicio3.png)
+
+Este fue el primer cross join que hice de todos. A partir de ahí todos aquellos ejercicios que requerrían de este tipo de cláusulas me salían bastante bien
+porque al conocer como desde el principio como funciona el cross join resultaba algo mas sencillo.
 
 
+### Cuarto Ejercicio(Práctica19-Ejercicio5)
+![](fotos/Ejercicio4.png)
+
+El ejercicio es fácil pero el modo de relacionar cada una de las tablas de esta base de datos es muy enrevesado, ya que solo existe una única tabla.
+Vemos como hay un `join on` en esta consulta para poder sacar las madres, pero es que además nos pide las que tienen dos hijas. Esto último es muy importante
+porque a veces no nos fijamos bien del enunciado como me paso a mí con esta consulta y no me dí cuenta de que habia que poner en el sexo de la hija femenino.
+Incluso también hay que poner `count` dentro del having (se utiliza para condiciones con totales), para que nos saque las que tienen dos hijas unicamente.
+Finalmente conseguí resolver dicho ejercicio poniendo.
 
 
+### Quinto Ejercicio(Práctica17-Ejercicio14)
+![](fotos/Ejercicio5.png)
+
+La utilización de `left outer join` es algo nuevo a que nosotros en ningún momento habíamos hecho consultas externas, es decir, por ejemplo en este ejercicio
+nos muestra todos las piezas relacionadas con existencias y viceversa, pero también aquellas piezas que no tienen existencia en el almacén.
+Además del `left outer join` también usamos el nvl para todas las piezas sin existencia , no obstante, como N_ALMACÉN es de tipo `number` tendremos que cambiarle 
+a texto para que funcione y nos sustituya el `null` por lo que queramos establecer.
 
 
 
