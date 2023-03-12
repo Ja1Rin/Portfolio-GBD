@@ -3,7 +3,7 @@
 ### Indice
 * [Resumen](#resumen)  
 * [Reflexiones personales](#reflexiones-personales)  
-* [Ejercicios Significativos](#ejercicios significativos)  
+* [Ejercicios Significativos](#ejercicios-significativos)  
 * [Ejercicios de invencion propia](#ejer-propios)  
 * [Conclusión](#conclusiones) 
 
