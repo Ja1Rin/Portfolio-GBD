@@ -54,6 +54,18 @@ En cuanto a lo negativo me quedo con las veces que he intentado la consulta y fi
 por lo menos lo he intentado hacer y he puesto ganas.
 En resumen, este tema me ha aportado mucho a la hora de pensar y razonar y que con otras asignaturas o cosas no lo han hecho.
 
+
+## **_Ejercicios Significativos_**
+
+### Primer ejercicio
+![](fotos/Ejercicio1.png)
+
+
+
+
+
+
+
 ## **_CONCLUSIONES_**
 
 Al principio algunas de las dificultades que tenía era que no entendía lo que se pedía en el enunciado, es decir, me costaba en 
