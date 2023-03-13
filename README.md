@@ -103,6 +103,7 @@ a texto para que funcione y nos sustituya el `null` por lo que queramos establec
 ### **Primer Ejercicio**
 _Muestra el promedio de puntos en casa y fuera por cada equipo de la nba,
 en la temporada 2021/22._
+
 ![](fotos/EjerPropio1.png)
 
 
