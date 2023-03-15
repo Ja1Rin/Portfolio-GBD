@@ -1,4 +1,4 @@
-# PORTFOLIO-GBD-MARZO 
+# <u>**_PORTFOLIO-GBD-MARZO_**</u>
 
 ### Indice
 * [Resumen](#resumen)  
@@ -8,7 +8,7 @@
 * [Conclusión](#conclusiones) 
 
 
-## **_RESUMEN_**
+## <u>**_RESUMEN_**</u>
 En los temas 6 y 7 estuvimos viendo lo que es considerado como la parte mas importante junto con la creacion de tablas,
 esa parte son las **consultas**.
 Las consultas es una **tecnica que nos permite visualizar el contenido de una o varias tablas con solo unas lineas**, incluso 
@@ -44,7 +44,7 @@ Lo ultimo que vimos son las cláusulas **_`group by`_**(sirve para agrupar por c
 totales) y  por supuesto las *cláusulas totales* como **_`sum` `avg` `count`_**, etc
 
 
-## **_REFLEXIONES PERSONALES_**
+## <u>**_REFLEXIONES PERSONALES_**</u>
 
 Personalmente yo ya conocía el tema de las consultas de SQL y me parece algo fascinante pero a la vez complicado de aprender,
 no obstante, yo creo que lo positivo que saco de todo esto es que este año he podido aprender a realizar consultas y sobre todo 
@@ -55,7 +55,7 @@ por lo menos lo he intentado hacer y he puesto ganas.
 En resumen, este tema me ha aportado mucho a la hora de pensar y razonar y que con otras asignaturas o cosas no lo han hecho.
 
 
-## **_EJERCICIOS SIGNIFICATIVOS_**
+## <u>**_EJERCICIOS SIGNIFICATIVOS_**</u>
 
 ### Primer ejercicio(Práctica20-Ejercicio8)
 ![](fotos/Ejercicio1.png) 
@@ -98,14 +98,21 @@ a texto para que funcione y nos sustituya el `null` por lo que queramos establec
 
 
 
-## **_EJERCICIOS PROPIOS_**
+## <u>**_EJERCICIOS PROPIOS_**</u>
 
 ### **Primer Ejercicio**
 _Muestra el promedio de puntos en casa y fuera por cada equipo de la nba,
 en la temporada 2021/22._
 
-![](fotos/EjerPropio1.png)
-
+```OracleSQLPlus
+select ID_EQUIPO,NOMBRE,
+       to_char(avg(PUNTOS_LOCAL)+avg(PUNTOS_VISITA),'fm999D00') as promedio_puntos_casa_fuera
+from PARTIDOS p
+join EQUIPOS l on (l.ID_EQUIPO=p.ID_EQUIPO_LOCAL)
+where p.INICIO_TEMP=2021 and p.FIN_TEMP=2022
+group by ID_EQUIPO, NOMBRE
+order by ID_EQUIPO,promedio_puntos_casa_fuera;
+```
 
 
 
