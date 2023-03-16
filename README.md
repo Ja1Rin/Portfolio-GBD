@@ -114,6 +114,8 @@ group by ID_EQUIPO, NOMBRE
 order by ID_EQUIPO,promedio_puntos_casa_fuera;
 ```
 
+### **Segundo Ejercicio**
+
 
 
 
