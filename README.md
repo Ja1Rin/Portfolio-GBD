@@ -4,7 +4,7 @@
 * [Resumen](#resumen)  
 * [Reflexiones personales](#reflexiones-personales)  
 * [Ejercicios Significativos](#ejercicios-significativos)  
-* [Ejercicios de invencion propia](#ejer-propios)  
+* [Ejercicios de invencion propia](#ejercicios-propios)  
 * [Conclusión](#conclusiones) 
 
 
