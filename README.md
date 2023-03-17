@@ -116,7 +116,17 @@ order by ID_EQUIPO,promedio_puntos_casa_fuera;
 
 ### **Segundo Ejercicio**
 
-
+_Mostrar el mínimo, máximo y la media de cada articulo por cada tipo y modelo
+de piezas._
+```OracleSQLPlus
+select TIPO,MODELO,
+       min(CANTIDAD) as maximo_articulos ,
+       max(CANTIDAD) as minimo_articulos ,
+       round(avg(CANTIDAD),2) as media_articulos
+from PIEZAS p
+join EXISTENCIAS e using (tipo,modelo)
+group by TIPO,MODELO;
+```
 
 
 ## **_CONCLUSIONES_**
