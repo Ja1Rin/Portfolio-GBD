@@ -47,10 +47,10 @@ totales) y  por supuesto las *cláusulas totales* como **_`sum` `avg` `count`_**
 ## <u>**_REFLEXIONES PERSONALES_**</u>
 
 Personalmente yo ya conocía el tema de las consultas de SQL y me parece algo fascinante pero a la vez complicado de aprender,
-no obstante, yo creo que lo positivo que saco de todo esto es que este año he podido aprender a realizar consultas y sobre todo 
+no obstante, yo creo que lo **positivo** que saco de todo esto es que este año he podido aprender a realizar consultas y sobre todo 
 entender como funciona el enunciado y poder sacar la consulta correctamente, esto del final es la parte que más hay que practicar ya que si 
 no entendemos el enunciado y tampoco sabemos de que va relacionado el propio tema vamos muy mal.
-En cuanto a lo negativo me quedo con las veces que he intentado la consulta y finalmente no lo he conseguido, aunque no me salga
+En cuanto a lo **negativo** me quedo con las veces que he intentado la consulta y finalmente no lo he conseguido, aunque no me salga
 por lo menos lo he intentado hacer y he puesto ganas.
 En resumen, este tema me ha aportado mucho a la hora de pensar y razonar y que con otras asignaturas o cosas no lo han hecho.
 
